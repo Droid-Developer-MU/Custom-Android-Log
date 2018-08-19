@@ -20,4 +20,11 @@ public class LogMessages {
         Log.v(tag, msg);
     }
 
+    public void warn(String tag, String msg){
+        Log.w(tag, msg);
+    }
+
+    public void asset(String tag, String msg){
+        Log.wtf(tag, msg);
+    }
 }
