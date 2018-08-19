@@ -19,3 +19,18 @@ Add it in your root build.gradle at the end of repositories:
 	dependencies {
 	        implementation 'com.github.KisanThapa:Custom-Android-Log:0.1.0'
 	}
+
+
+There are four functions are available for printing log messages:
+
+    public void debug(String tag, String msg) {
+    }
+
+    public void info(String tag, String msg) {
+    }
+
+    public void error(String tag, String msg) {
+    }
+
+    public void verbose(String tag, String msg) {
+    }
